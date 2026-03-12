@@ -11,7 +11,9 @@ metadata = []
 sample = ds["train"].select(range(2000))
 
 for row in sample:
+   
     query_id = row["query_id"]
+    
     query = row["query"]
 
     texts = row["passages"]["passage_text"]
