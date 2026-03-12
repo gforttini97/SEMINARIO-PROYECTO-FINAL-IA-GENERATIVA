@@ -36,5 +36,3 @@ print(documents[0][:1000])
 print(metadata[0])
 
 https://huggingface.co/settings/tokens
-
-"link"
